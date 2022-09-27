@@ -1,0 +1,39 @@
+/* .container {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    height: 42rem;
+    border-radius: 12px;
+    width: 80%;
+    margin-left: 133px;
+    margin-top: 114px;
+    background-color: white;
+} */
+
+.header {
+    text-align: center;
+    font-style: oblique;
+    font-family: serif;
+    margin-top: 20px;
+}
+
+a.brandname {
+    float: left;
+    font-style: oblique;
+    font-family: serif;
+}
+
+.card.row {
+    display: inline-block;
+    margin: 2px;
+    width: 30%;
+    margin-inline: 1px;
+}
+
+.cardgrid {
+    margin-left: 45px;
+}
+
+.modal_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 43px;
+}

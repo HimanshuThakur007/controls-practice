@@ -1,0 +1,114 @@
+h2.h1-responsive.font-weight-bold.text-center.my-4 {
+    font-style: oblique;
+    font-family: serif;
+}
+
+p.text-center.w-responsive.mx-auto.mb-5 {
+    font-style: oblique;
+    font-family: serif;
+}
+
+/* -------------------------------------- */
+
+.md-form input:not([type]), .md-form input[type="text"]:not(.browser-default), .md-form input[type="password"]:not(.browser-default), .md-form input[type="email"]:not(.browser-default), .md-form input[type="url"]:not(.browser-default), .md-form input[type="time"]:not(.browser-default), .md-form input[type="date"]:not(.browser-default), .md-form input[type="datetime"]:not(.browser-default), .md-form input[type="datetime-local"]:not(.browser-default), .md-form input[type="tel"]:not(.browser-default), .md-form input[type="number"]:not(.browser-default), .md-form input[type="search"]:not(.browser-default), .md-form input[type="phone"]:not(.browser-default), .md-form input[type="search-md"], .md-form textarea.md-textarea {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.md-form .form-control {
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+.md-form .form-control {
+    height: auto;
+    padding: 0.6rem 0 0.4rem 0;
+    margin: 0 0 0.5rem 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+/* -------------------------------------- */
+.md-form input:not([type])+label::after, .md-form input[type="text"]:not(.browser-default)+label::after, .md-form input[type="password"]:not(.browser-default)+label::after, .md-form input[type="email"]:not(.browser-default)+label::after, .md-form input[type="url"]:not(.browser-default)+label::after, .md-form input[type="time"]:not(.browser-default)+label::after, .md-form input[type="date"]:not(.browser-default)+label::after, .md-form input[type="datetime"]:not(.browser-default)+label::after, .md-form input[type="datetime-local"]:not(.browser-default)+label::after, .md-form input[type="tel"]:not(.browser-default)+label::after, .md-form input[type="number"]:not(.browser-default)+label::after, .md-form input[type="search"]:not(.browser-default)+label::after, .md-form input[type="phone"]:not(.browser-default)+label::after, .md-form input[type="search-md"]+label::after, .md-form textarea.md-textarea+label::after
+{
+    position: absolute;
+    top: 65px;
+    display: block;
+    content: "";
+    opacity: 0;
+    -webkit-transition: .2s opacity ease-out,0.2s color ease-out;
+    transition: .2s opacity ease-out,0.2s color ease-out;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+/* ----------------------------------------- */
+
+/* .md-form input:not([type]), .md-form input[type="text"]:not(.browser-default), .md-form input[type="password"]:not(.browser-default), .md-form input[type="email"]:not(.browser-default), .md-form input[type="url"]:not(.browser-default), .md-form input[type="time"]:not(.browser-default), .md-form input[type="date"]:not(.browser-default), .md-form input[type="datetime"]:not(.browser-default), .md-form input[type="datetime-local"]:not(.browser-default), .md-form input[type="tel"]:not(.browser-default), .md-form input[type="number"]:not(.browser-default), .md-form input[type="search"]:not(.browser-default), .md-form input[type="phone"]:not(.browser-default), .md-form input[type="search-md"], .md-form textarea.md-textarea {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.md-form .form-control {
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+.md-form .form-control {
+    height: auto;
+    padding: 0.6rem 0 0.4rem 0;
+    margin: 0 0 0.5rem 0;
+    background-color: transparent;
+    border-radius: 0;
+} */
+
+
+.md-form>label {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.md-form label {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    /* color: #757575; */
+    cursor: text;
+    transform: translateY(12px);
+    transform-origin: 0 100%;
+}
+.md-form label {
+    font-size: 1rem;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
